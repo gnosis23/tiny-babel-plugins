@@ -1,0 +1,21 @@
+{
+  "name": "tiny-babel-plugins",
+  "version": "1.0.0",
+  "description": "an example of testing babel plugins with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-traverse": "^6.19.0",
+    "jest": "^17.0.3"
+  },
+  "jest": {
+    "testPathDirs": [
+      "tests/"
+    ],
+    "testRegex": "\\.test\\.js$"
+  }
+}
