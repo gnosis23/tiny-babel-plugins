@@ -8,8 +8,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-traverse": "^6.19.0",
     "jest": "^17.0.3"
   },
   "jest": {
@@ -17,5 +15,12 @@
       "tests/"
     ],
     "testRegex": "\\.test\\.js$"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-template": "^6.26.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0"
   }
 }
